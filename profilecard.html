@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+	<title>	PROFILE CARD</title>
+	<link rel="stylesheet" type="text/css" href="profilecard.css">
+</head>
+<body>
+
+   <div class="container">
+   	<div className ="profile-card"  data-test-id="profile-card">
+         <div class="card">   
+   		    
+              <img src="https://media.licdn.com/dms/image/v2/D4D03AQGnepH4Rz59gw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726332022669?e=1743638400&v=beta&t=mif_gUXzpgKAcLxH3w86BKm_JVf0ewhjCFWPatDDK5I" alt="profile-pic" data- test-id="profile-image">
+
+   				<h2 data-test-id="fullName">Ojim Chinemerem Jane</h2>
+   				<h5 data-test-id="jobTittle">Front-end developer, Event Planning.</h5>
+               <h5 data-test-id="currentLocation">Benin,Nigeria.</h5>
+
+
+               <h5 data-test-id="emailAdress"><a href="#">Janyeroyale@gmail.com </a></h5>
+
+               <h5 data-test-id="socialLinks"> <a href="#"> https://www.linkedin.com/in/jane-ojim-35070a236</a></h5>
+
+               <div class="connect">
+
+               <a href="#">Connect with me</a>
+
+            </div>
+
+   				<p data-test-id="shortBio">
+              Ojim Chinemerem Jane is a passionate event planner and aspiring world-class Frontend developer. Driven by a strong will and determination, she strives for excellence in both fields. Motivated by financial success and a desire to be the best, Jane is relentless in pursuing her goals with creativity and focus.
+              </p>
+
+             
+              <p id="datetime"></p>
+
+          <script data-test-id="curentTimeUTC">
+            var now = new Date();
+            var datetime = now.toLocaleString();
+            document.getElementById("datetime").innerHTML = datetime;
+          </script>
+                             
+
+             		</div>
+             		</div>
+             	</div>
+             </div>
+          </body>
+          </html>  
